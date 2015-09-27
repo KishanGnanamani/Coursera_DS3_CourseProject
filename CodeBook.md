@@ -2,6 +2,7 @@
 ##Initialize Steps:
   * Set the Working Directory
   * Load the "plyR" R-package
+
 ##Preprocessing Steps:
   * Load the meata data files
     1. features.txt - "columnNames"

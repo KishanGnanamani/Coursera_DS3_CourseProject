@@ -20,6 +20,7 @@
   * Assign the column names to the loaded test datasets
   * Create the final data set for the training data - "trainingDataset"
   * Create the final data set for the test data - "testDataset"
+
 ####Dataprocessing Steps:
   * STEP1 - Combine the training dataset and the test dataset - "finalDataset"
     1. Create a new dataset "finalDataset" by rbinding "trainingDataset" and "testDataset" 

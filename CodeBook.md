@@ -2,7 +2,7 @@
 ##Initialize Steps:
   * Set the Working Directory
   * Load the "plyR" R-package
-##Preprocessing Steps:
+###Preprocessing Steps:
   * Load the meata data files
     1. features.txt - "columnNames"
     2. activity_lables.txt - "activityType"
@@ -19,7 +19,7 @@
   * Assign the column names to the loaded test datasets
   * Create the final data set for the training data - "trainingDataset"
   * Create the final data set for the test data - "testDataset"
-##Dataprocessing Steps:
+####Dataprocessing Steps:
   * STEP1 - Combine the training dataset and the test dataset - "finalDataset"
     1. Create a new dataset "finalDataset" by rbinding "trainingDataset" and "testDataset" 
   * STEP2 - Extract only the mean and standard deviation columns and store it in a dataframe - "fData"
